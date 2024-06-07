@@ -1,7 +1,12 @@
 /* Add a background color to the header element */
 
 header {
-  background-color: #b70a0a;
+  background-color: #7d7f70;
+  color: #860c31;
+  font-size: 24px; 
+  font-family: 'Monotype Corsiva';
+  text-shadow: 3px 0px 0px #060e0a;
+  padding: 20px;
 }
 
 /* Add a fun background color to the main element */
@@ -10,26 +15,34 @@ main {
     background-color: #7d7f70;
     color: #eff0e9;
     text-align: center;
+    padding: 20px;
   }
 
 /* Align the h1 containing your name in the center of the header*/
 
 h1 {
     text-align: center;
+    padding: 10px 0;
   }
 
 ul {
     text-align: center;
     list-style-position: inside;
+    font-size: 24px; 
+    line-height: 48px;
+    text-shadow: 2px 0px 0px #060e0a;
+    padding: 20px 0;
   }
 
 /* Make your p tag a different color and italic */
 
 p {
-    color: #71d2a5;
+    color: #7d7f70;
     font-style: italic;
-    font-size: 36px; 
+    font-size: 48px; 
+    text-shadow: 4px 0px 0px #060e0a;
     text-align: center;
+    padding: 10px 0;
   }
 
 /* Put a border around your image */
@@ -41,6 +54,7 @@ img {
     margin-right: auto;
     max-width: 100%;
     height: auto;
+    padding: 20px;
   }
 
 /* Change the font-size of your p tag */
@@ -54,5 +68,6 @@ ul {
 /* Add a background color to the footer element */
 
 footer {
-    background-color: #b70a0a;
+    background-color: #860c31;
+    padding: 20px;
   }
